@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yatzy", "Yatzy\Yatzy.csproj", "{781F0EC8-A661-482E-AB91-D2F917110620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yatzy.Tests", "Yatzy.Tests\Yatzy.Tests.csproj", "{F59A6A1B-412C-45D2-AF0F-E6799424EADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{781F0EC8-A661-482E-AB91-D2F917110620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781F0EC8-A661-482E-AB91-D2F917110620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781F0EC8-A661-482E-AB91-D2F917110620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781F0EC8-A661-482E-AB91-D2F917110620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F59A6A1B-412C-45D2-AF0F-E6799424EADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59A6A1B-412C-45D2-AF0F-E6799424EADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59A6A1B-412C-45D2-AF0F-E6799424EADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59A6A1B-412C-45D2-AF0F-E6799424EADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE0143D6-DC24-4FE0-8565-DBB66FCC2BFC}
+	EndGlobalSection
+EndGlobal
