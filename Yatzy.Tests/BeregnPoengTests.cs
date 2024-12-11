@@ -182,4 +182,36 @@ public class BeregnPoengTests
             _yatzy.BeregnPoeng(kast, kategorier[i]);
         }
     }
+
+    [Fact]
+    public void Test_Kast_UgyldigeVerdier_1()
+    {
+        string kast = "0, 1, 2, 3, 4";
+
+        Assert.Throws<ArgumentOutOfRangeException>(() => _yatzy.BeregnPoeng(kast, Kategori.Sjanse));
+    }
+
+    [Fact]
+    public void Test_Kast_UgyldigeVerdier_2()
+    {
+        string kast = "a, 1, 2, 3, 4";
+
+        Assert.Throws<FormatException>(() => _yatzy.BeregnPoeng(kast, Kategori.Sjanse));
+    }
+
+    [Fact]
+    public void Test_Kast_UgyldigLengdeLang()
+    {
+        string kast = "1, 1, 1, 1, 1, 1";
+
+        Assert.Throws<ArgumentOutOfRangeException>(() => _yatzy.BeregnPoeng(kast, Kategori.Sjanse));
+    }
+
+    [Fact]
+    public void Test_Kast_UgyldigLengdeKort()
+    {
+        string kast = "1, 1, 1, 1";
+
+        Assert.Throws<ArgumentOutOfRangeException>(() => _yatzy.BeregnPoeng(kast, Kategori.Sjanse));
+    }
 }

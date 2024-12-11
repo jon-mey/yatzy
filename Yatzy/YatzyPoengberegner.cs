@@ -73,7 +73,7 @@ public class YatzyPoengberegner
 
         foreach (var v in verdier)
         {
-            if (v < 0 || v > 6)
+            if (v < 1 || v > 6)
             {
                 throw new ArgumentOutOfRangeException($"Kast inneholder ugyldig verdi {v} ({kast})");
             }
